@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>   
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Queries\QueryOrder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.5.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.0" />
+    <PackageReference Include="MediatR" Version="12.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Peas.Order.Domain\Peas.Order.Domain.csproj" />
+    <ProjectReference Include="..\Peas.Order.Infrastructure\Peas.Order.Infrastructure.csproj" />
+    <ProjectReference Include="..\Peas.Protocol\Peas.Protocol.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,380 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\workspace\\OpenSource\\modular\\Peas.Order\\Peas.Order.csproj": {}
+  },
+  "projects": {
+    "D:\\workspace\\OpenSource\\modular\\Peas.Infrastructure\\Peas.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\workspace\\OpenSource\\modular\\Peas.Infrastructure\\Peas.Infrastructure.csproj",
+        "projectName": "Peas.Infrastructure",
+        "projectPath": "D:\\workspace\\OpenSource\\modular\\Peas.Infrastructure\\Peas.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\xuanye\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\OpenSource\\modular\\Peas.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xuanye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\workspace\\nuget_offline": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DotBPE.Baseline": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "DotBPE.Rpc": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32, )"
+            },
+            "Vulcan.DapperExtensions": {
+              "target": "Package",
+              "version": "[2.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\workspace\\OpenSource\\modular\\Peas.Order.Domain\\Peas.Order.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\workspace\\OpenSource\\modular\\Peas.Order.Domain\\Peas.Order.Domain.csproj",
+        "projectName": "Peas.Order.Domain",
+        "projectPath": "D:\\workspace\\OpenSource\\modular\\Peas.Order.Domain\\Peas.Order.Domain.csproj",
+        "packagesPath": "C:\\Users\\xuanye\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\OpenSource\\modular\\Peas.Order.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xuanye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\workspace\\nuget_offline": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\workspace\\OpenSource\\modular\\Peas.Infrastructure\\Peas.Infrastructure.csproj": {
+                "projectPath": "D:\\workspace\\OpenSource\\modular\\Peas.Infrastructure\\Peas.Infrastructure.csproj"
+              },
+              "D:\\workspace\\OpenSource\\modular\\Peas.Protocol\\Peas.Protocol.csproj": {
+                "projectPath": "D:\\workspace\\OpenSource\\modular\\Peas.Protocol\\Peas.Protocol.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\workspace\\OpenSource\\modular\\Peas.Order.Infrastructure\\Peas.Order.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\workspace\\OpenSource\\modular\\Peas.Order.Infrastructure\\Peas.Order.Infrastructure.csproj",
+        "projectName": "Peas.Order.Infrastructure",
+        "projectPath": "D:\\workspace\\OpenSource\\modular\\Peas.Order.Infrastructure\\Peas.Order.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\xuanye\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\OpenSource\\modular\\Peas.Order.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xuanye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\workspace\\nuget_offline": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\workspace\\OpenSource\\modular\\Peas.Order.Domain\\Peas.Order.Domain.csproj": {
+                "projectPath": "D:\\workspace\\OpenSource\\modular\\Peas.Order.Domain\\Peas.Order.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\workspace\\OpenSource\\modular\\Peas.Order\\Peas.Order.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\workspace\\OpenSource\\modular\\Peas.Order\\Peas.Order.csproj",
+        "projectName": "Peas.Order",
+        "projectPath": "D:\\workspace\\OpenSource\\modular\\Peas.Order\\Peas.Order.csproj",
+        "packagesPath": "C:\\Users\\xuanye\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\OpenSource\\modular\\Peas.Order\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xuanye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\workspace\\nuget_offline": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\workspace\\OpenSource\\modular\\Peas.Order.Domain\\Peas.Order.Domain.csproj": {
+                "projectPath": "D:\\workspace\\OpenSource\\modular\\Peas.Order.Domain\\Peas.Order.Domain.csproj"
+              },
+              "D:\\workspace\\OpenSource\\modular\\Peas.Order.Infrastructure\\Peas.Order.Infrastructure.csproj": {
+                "projectPath": "D:\\workspace\\OpenSource\\modular\\Peas.Order.Infrastructure\\Peas.Order.Infrastructure.csproj"
+              },
+              "D:\\workspace\\OpenSource\\modular\\Peas.Protocol\\Peas.Protocol.csproj": {
+                "projectPath": "D:\\workspace\\OpenSource\\modular\\Peas.Protocol\\Peas.Protocol.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\workspace\\OpenSource\\modular\\Peas.Protocol\\Peas.Protocol.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\workspace\\OpenSource\\modular\\Peas.Protocol\\Peas.Protocol.csproj",
+        "projectName": "Peas.Protocol",
+        "projectPath": "D:\\workspace\\OpenSource\\modular\\Peas.Protocol\\Peas.Protocol.csproj",
+        "packagesPath": "C:\\Users\\xuanye\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\OpenSource\\modular\\Peas.Protocol\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xuanye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\workspace\\nuget_offline": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DotBPE.BestPractice": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "DotBPE.Extra.Json": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "DotBPE.Extra.MessagePack": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "DotBPE.Gateway": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "DotBPE.Rpc": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

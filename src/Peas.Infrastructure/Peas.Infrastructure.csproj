@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="DotBPE.Baseline" Version="1.0.2" />
+		<PackageReference Include="DotBPE.Rpc" Version="3.0.0" />
+		<PackageReference Include="MySql.Data" Version="8.0.32" />
+		<PackageReference Include="Vulcan.DapperExtensions" Version="2.1.6" />
+	</ItemGroup>
+</Project>

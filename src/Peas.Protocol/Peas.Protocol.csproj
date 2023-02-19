@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="DotBPE.BestPractice" Version="3.0.0" />
+		<PackageReference Include="DotBPE.Extra.Json" Version="3.0.0" />
+		<PackageReference Include="DotBPE.Extra.MessagePack" Version="3.0.0" />
+		<PackageReference Include="DotBPE.Rpc" Version="3.0.0" />
+		<PackageReference Include="DotBPE.Gateway" Version="3.0.0" />		
+	</ItemGroup>
+</Project>

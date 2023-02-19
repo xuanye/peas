@@ -1,0 +1,12 @@
+D:\workspace\OpenSource\modular\Peas.Infrastructure\obj\Debug\net6.0\Peas.Infrastructure.csproj.AssemblyReference.cache
+D:\workspace\OpenSource\modular\Peas.Infrastructure\obj\Debug\net6.0\Peas.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\OpenSource\modular\Peas.Infrastructure\obj\Debug\net6.0\Peas.Infrastructure.AssemblyInfoInputs.cache
+D:\workspace\OpenSource\modular\Peas.Infrastructure\obj\Debug\net6.0\Peas.Infrastructure.AssemblyInfo.cs
+D:\workspace\OpenSource\modular\Peas.Infrastructure\obj\Debug\net6.0\Peas.Infrastructure.csproj.CoreCompileInputs.cache
+D:\workspace\OpenSource\modular\Peas.Infrastructure\bin\Debug\net6.0\Peas.Infrastructure.deps.json
+D:\workspace\OpenSource\modular\Peas.Infrastructure\bin\Debug\net6.0\Peas.Infrastructure.dll
+D:\workspace\OpenSource\modular\Peas.Infrastructure\bin\Debug\net6.0\Peas.Infrastructure.pdb
+D:\workspace\OpenSource\modular\Peas.Infrastructure\obj\Debug\net6.0\Peas.Infrastructure.dll
+D:\workspace\OpenSource\modular\Peas.Infrastructure\obj\Debug\net6.0\refint\Peas.Infrastructure.dll
+D:\workspace\OpenSource\modular\Peas.Infrastructure\obj\Debug\net6.0\Peas.Infrastructure.pdb
+D:\workspace\OpenSource\modular\Peas.Infrastructure\obj\Debug\net6.0\ref\Peas.Infrastructure.dll
