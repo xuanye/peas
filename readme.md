@@ -99,7 +99,7 @@ public async Task<TService> CreateAsync<TService>(ushort spacialMessageId = 0) w
 
 # 示例
 
-就以上面的系统为例怎么建立解决方案，项目有如何组织呢？我喜欢给我写的小工具或者类库起一些植物或者水果的名字，这个项目我们就叫它豌豆（Peas）吧。
+就以上面的系统为例怎么建立解决方案，项目又如何组织呢？我喜欢给我写的小工具或者类库起一些植物或者水果的名字，这个项目我们就叫它豌豆（Peas）吧。
 
 ![Untitled](doc/img/4.png)
 
