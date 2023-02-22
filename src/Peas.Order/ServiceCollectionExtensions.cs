@@ -17,7 +17,7 @@ namespace Microsoft.Extensions.DependencyInjection
     public static class ServiceCollectionExtensions
     {
 
-        public static IServiceCollection AddOrderService(this IServiceCollection @this, IConfiguration configuration ) 
+        public static IServiceCollection AddOrderService(this IServiceCollection @this, IConfiguration configuration)
         {
             @this.Configure<ConnectionStrings>(o => o.OrderDatabase = configuration.GetConnectionString("order"));
             @this.AddAutoMapperProfiles();
@@ -46,15 +46,12 @@ namespace Microsoft.Extensions.DependencyInjection
             {
                 config.RegisterServicesFromAssembly(typeof(BaseResponse).Assembly);
             });
-        
 
 
-            services.AddValidatorsFromAssembly(typeof(BaseResponse).Assembly, ServiceLifetime.Scoped, (result) =>
-            {
-                return result.ValidatorType.Name.EndsWith("Command") || result.ValidatorType.Name.EndsWith("Query");
-            });
 
-       
+            services.AddValidatorsFromAssembly(typeof(BaseResponse).Assembly, ServiceLifetime.Scoped);
+
+
 
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
@@ -65,13 +62,13 @@ namespace Microsoft.Extensions.DependencyInjection
         private static IServiceCollection AddDomainService(this IServiceCollection services)
         {
             services.AddSingleton<OrderDomainService>();
-        
+
             return services;
         }
 
         private static IServiceCollection AddRepositories(this IServiceCollection services)
         {
-            services.AddSingleton<IOrderRepository, OrderRepository>();   
+            services.AddSingleton<IOrderRepository, OrderRepository>();
 
             return services;
         }
